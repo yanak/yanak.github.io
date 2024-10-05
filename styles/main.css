@@ -1,0 +1,33 @@
+body {
+    margin: 0 !important;
+}
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+.spacer {
+    flex-grow: 1;
+}
+/*.header a {*/
+/*    margin: 0 10px;*/
+/*}*/
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.column {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.main-container {
+    padding: 10px;
+}
